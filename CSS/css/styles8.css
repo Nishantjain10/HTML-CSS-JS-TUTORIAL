@@ -1,0 +1,10 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: coral;
+  box-shadow: 0 0 30px gray;
+}
+h1 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}

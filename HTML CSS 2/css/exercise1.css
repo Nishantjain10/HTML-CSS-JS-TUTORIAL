@@ -1,0 +1,43 @@
+
+.container {
+  
+  flex-direction: row;
+  align-items: center;
+  background: black;
+}
+.list {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  
+
+.box {
+  padding: 10px;
+  width: fit-content;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: white;
+  margin: auto;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .list {
+      
+      flex-direction: row;
+      margin-left: auto;
+    }
+    .box {
+      margin: 0;
+    }
+    .container{
+      display: flex;
+    }
+}
+

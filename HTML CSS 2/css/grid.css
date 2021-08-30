@@ -1,0 +1,35 @@
+body {
+    margin: 10px;
+  }
+.container {
+    display: grid;
+    /* grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(2, 100px); */
+    grid-template: 100px auto 100px / 30fr 70fr;
+    grid-template-areas: 
+    "header header" 
+    "sidebar main" 
+    ". footer";
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px ;
+    border: 3px solid lightgrey;
+    /* justify-items: stretch;
+    align-items: stretch; */
+    /* justify-content: center;
+    align-content: center; */
+    height: 60vh;
+}
+.box  {
+    
+    
+    background: gold;
+}
+.box-one {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    grid-area: header;
+}
+.box-four {
+    grid-area: footer;
+}

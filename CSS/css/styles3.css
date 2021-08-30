@@ -1,0 +1,23 @@
+body {
+    margin: 10px;
+  }
+
+article p:first-of-type {
+   font-size: 140%;
+   font-style: italic;
+  }
+
+  article :last-child {
+      font-weight: bold;
+  }
+ul li:nth-child(3n){
+    color: deeppink;
+}
+a:visited,  
+a:link {
+    color: dodgerblue;
+}
+a:hover, 
+a:focus {
+    color: deeppink;
+}
