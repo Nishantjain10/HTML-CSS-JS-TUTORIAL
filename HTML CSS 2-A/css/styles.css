@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/open-sans/opensans-bold-webfont.woff2") format("woff2"),
+    url("fonts/open-sans/opensans-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"),
+    url("fonts/open-sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}
+
+html {
+  /* font-size: 16px; */
+  /* 62.5% of 16px = 10px */
+  font-size: 100%;
+}
+
+body {
+  margin: 10px;
+  font-family: bold;
+  /* 1.5 x 16px */
+  /* 1 * font size of the root element (html) */
+  font-size: 1rem;
+  line-height: 1.5;
+  /* letter-spacing: 1px;
+  word-spacing: 3px; */
+  /* direction: rtl; */
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+  margin: 3rem 0 1rem;
+}
+p {
+  /* i 1 */
+  width: 50ch;
+  text-align: left;
+  /* text-indent: 1rem; */
+  /* text-decoration: underline; */
+  /* text-transform: capitalize; */
+  /* white-space: nowrap;
+  border: 3px solid gold;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  /* column-count: 2;
+  column-gap: 2rem;
+  column-rule: 3px dotted #999; */
+}
