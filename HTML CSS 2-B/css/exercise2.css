@@ -1,0 +1,29 @@
+ul.no-bullets {
+  list-style-type: none;
+}
+
+ul.menu {
+    
+  background: #2a2138;
+  color: white;
+  font-size: 2rem;
+  display: inline-block;
+  list-style-type: none;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 10rem;
+  margin-top: 0;
+}
+i {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+li {
+  padding: 0rem 4rem 2rem 0rem;
+  color: rgba(211, 211, 211, 0.5);
+}
+
+li:hover {
+  background-color: #221a2e;
+  color: white;
+}
