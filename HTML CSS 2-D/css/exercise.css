@@ -1,0 +1,77 @@
+html {
+  line-height: unset;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+    32deg,
+    rgba(142, 48, 189, 1) 36%,
+    rgba(16, 152, 166, 1) 73%
+  );
+  transition: background 1s linear 1s;
+}
+
+.container {
+  width: 500px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0px 0px 30px 12px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  transition: transform 0.5s;
+}
+
+.box-body {
+  background-color: white;
+  padding: 1.5em;
+}
+
+div.box-footer {
+  overflow: hidden;
+  background: linear-gradient(
+    32deg,
+    rgba(116, 214, 144, 1) 41%,
+    rgba(92, 191, 187, 1) 100%
+  );
+  padding: 0.6em 0em 0.7em 3rem;
+  display: flex;
+}
+
+img.person {
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0.5em;
+  color: white;
+  font-weight: 600;
+}
+.container {
+  transform: rotate(-5deg);
+}
+
+.container:hover {
+  transform: rotate(5deg);
+  transform: scale(1.5);
+  /* body {
+        background: linear-gradient(32deg, rgba(189,48,143,1) 38%, rgba(16,26,166,1) 72%);
+    } */
+}
+
+body:hover {
+  background: linear-gradient(
+    32deg,
+    rgba(189, 48, 143, 1) 38%,
+    rgba(16, 26, 166, 1) 72%
+  );
+}
