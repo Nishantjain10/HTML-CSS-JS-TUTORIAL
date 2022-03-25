@@ -1,0 +1,90 @@
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--small {
+    width: 30px;
+    height: 30px;
+}
+
+.icon--new {
+    padding-left: 1em;
+    display: flex;
+    justify-content: center;
+}
+.icon--new> img {
+    width: 7em;
+    padding: 1.5em;
+    margin: 2rem;
+}
+
+
+
+.img__wrap {
+    position: relative;
+    
+  }
+  
+  .img__description {
+    font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 97.2%;
+  /* or 58px */
+  
+  letter-spacing: -0.03em;
+  
+  /* Main Black */   
+    color: #181717;
+    visibility: hidden;
+    text-align: center;
+     opacity: 0;
+    /* transition effect. not necessary */
+    transition: opacity 0.6s, visibility 2s;
+  }
+  
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+
+  }
+
+
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+
+.icon--white {
+    fill: white;
+}
+
+.icon--black {
+    fill: black;
+}
+
+.icon-container {
+    background: #f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container--2 {
+    width: 127px;
+    height: 42px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container--accent {
+    background-color: var(--color-accent);
+}
+.icon-container--black {
+    background-color: #2c2727;
+}

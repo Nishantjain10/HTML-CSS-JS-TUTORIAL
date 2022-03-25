@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+}
+
+.link-arrow {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.link-arrow {
+  color: #181717;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.link-arrow--2 {
+  color: #181717;
+  font-size: 7rem;
+  margin-top: 55px;
+}
+
+.link-arrow::after {
+  content: "-->";
+  margin-left: 5px;
+  transition: margin 0.15s;
+}
+.link-arrow--2::after {
+    content: '\2193';
+    
+  transition: margin 0.15s;
+    
+}
+
+
+.link-arrow:hover::after {
+  margin-left: 10px;
+}
+
