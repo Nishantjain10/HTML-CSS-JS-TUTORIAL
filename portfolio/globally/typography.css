@@ -42,12 +42,29 @@ h1_exception {
 }
 
 
-.h2_exception {
+.h2__exception {
   font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 4rem;
 margin-top: -40px;
+/* or 58px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+
+}
+.h2__exception-1 {
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 4rem;
+margin-top: 60px;
+
 /* or 58px */
 
 letter-spacing: -0.03em;

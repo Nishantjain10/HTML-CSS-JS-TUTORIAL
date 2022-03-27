@@ -2,6 +2,11 @@
   padding: 3rem;
 }
 
+.testimonial-1 {
+  padding-left: 2rem;
+  
+}
+
 .testimonial .quote {
   margin: 2rem 0;
   font-size: 110%;
