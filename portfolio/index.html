@@ -63,7 +63,7 @@
         <ul class="list nav__list collapsible__content">
           <li class="nav__item"><a href="#worksection">Work</a></li>
           <li class="nav__item"><a href="#about-section">About</a></li>
-          <li class="nav__item"><a href="#">Playground</a></li>
+          <li class="nav__item"><a href="#experience-section">Experience</a></li>
           <li class="nav__item"><a href="#">Contact</a></li>
         </ul>
       </nav>
@@ -286,7 +286,7 @@
             </div>
             <div>
               <p class="p-advanced">
-                My work primarily consists of <b>front-end development</b>, graphic designing, and artificial intelligence-based backend projects. Participating in various hackathons and events is something <br>I enjoy doing.
+                My work primarily consists of <span class="color-dodger-blue">front-end development</span>, graphic designing, and artificial intelligence-based backend projects. Participating in various hackathons and events is something <br>I enjoy doing.
               </p>
               <p class="p-advanced--2">
                 I'm now a computer science student in India, freelancing and looking for internship opportunities.
@@ -348,11 +348,13 @@
                           </section>
       <section  class="block" data-aos="zoom-in" id="experience-section">
       <header class="block__header--2">
-        <h2 class="h2__exception-1">Experience</h2>
+        <div class="wrap">
+          <h2 class="gradient-text h2__exception-1">Experience</h1>
+       </div>
       </header>
       <div class="container">
         <div class="card">
-          <h3 class="testimonial-1">Hekors</h3>
+          <h3 class="testimonial-1">Community Member - Hekors</h3>
           <ul>
             <li class="keypoints">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et vel ipsa aut provident nam cumque. Minus sint distinctio reprehenderit explicabo?</li>
             <li class="keypoints">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, officiis?</li>
@@ -450,6 +452,13 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener('load', addDarkmodeWidget);
     </script>
   </body>
 </html>

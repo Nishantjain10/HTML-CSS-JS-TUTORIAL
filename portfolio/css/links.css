@@ -11,7 +11,7 @@ a {
 .link-arrow {
   color: #181717;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 6rem;
   font-weight: bold;
 }
 .link-arrow--2 {
@@ -21,7 +21,7 @@ a {
 }
 
 .link-arrow::after {
-  content: "-->";
+  content: '\2192';
   margin-left: 5px;
   transition: margin 0.15s;
 }

@@ -72,8 +72,6 @@ letter-spacing: -0.03em;
 /* Main Black */
 
 color: #181717;
-
-
 }
 
 h2 {
@@ -124,3 +122,9 @@ color: #606060;
 
 margin-top: 70px;
 }
+
+.color-dodger-blue {
+  color: dodgerblue;
+  font-weight: 500;
+}
+

@@ -48,9 +48,6 @@ color: #181717;
   transform: translateX(-120px);
 }
 
-
-
-
 .rotatelogo:hover {
   transform: rotate(-50deg);
   transition: transform 1s ease-out;  
