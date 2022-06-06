@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color--1: hsl(222, 26%, 31%);
+    --screen-color-1: hsl(224, 36%, 15%);
+    --key-text-color-1: hsl(221, 14%, 31%);
+    --key-bg-color-1:hsl(45, 7%, 89%);
+    --keypad-bg-color-1: hsl(223, 31%, 20%);
+    --key-shadow-gray:hsl(28, 16%, 65%);
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: var(--bg-color--1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.outer-container > div {
+    width: 20rem;
+    background-color: blueviolet;
+}
+
+.outer-container > div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 0;
+    color: white;
+}
+
+.outer-container > div:first-of-type h2 {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.outer-container > div:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .8rem;
+    height: 5rem;
+    background-color: var(--screen-color-1);
+    color: white;
+    font-weight: 700;
+    border-radius: .4rem;
+}
+
+.outer-container > div:last-of-type {
+    display: grid;
+    grid-template: repeat(5,15%) / repeat(4,21%);
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: var(--keypad-bg-color-1);
+    gap: 0.9rem;
+    border-radius: .4rem;  
+    padding: .8rem; 
+}
+
+button {
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    padding: 10px 6px;
+    color: var(--key-text-color-1);
+    background-color: var(--key-bg-color-1);
+    font-weight: 700;
+    border: 0;
+    box-shadow: 0px 1px var(--key-shadow-gray);
+}
+
+.grid-button--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+} 
+
+.grid-button--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+} 
