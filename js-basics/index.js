@@ -1,6 +1,6 @@
 // let isApproved = false; / / Boolean Literal
 // let firstName = undefined;
-// let selectedColor = null; 
+// let selectedColor = null;
 
 
 //objects
@@ -11,7 +11,7 @@
 
 //Dot Notation
 // person.myName = 'John';
-  
+
 // Bracket Notation
 // let selection = 'myName';
 // person[selection] = 'Mary';
@@ -24,7 +24,7 @@
 // selectedColors[2] = 1;
 // console.log(selectedColors);
 
-//Functions 
+//Functions
 // Performing a task
 // function greet(name, lastName) {
 //     console.log('Hello ' + name + ' ' + lastName);
@@ -35,7 +35,7 @@
 //    return number * number;
 // }
 
-// console.log(square(2)); 
+// console.log(square(2));
 
 
 // greet('John', 'Smith');
@@ -51,7 +51,7 @@
     //     return baseSalary + (overTime * rate);
     // }
 
-//objectOrientedProgramming    
+//objectOrientedProgramming
 // let employee = {
 //     baseSalary: 30_000,
 //     overtime: 10,
@@ -74,7 +74,7 @@
 // console.log(x % y);
 // console.log(x ** y); //square
 
-//increment 
+//increment
 // console.log(++x)
 
 //decrement
@@ -161,7 +161,7 @@
 
 //logical NOT (!)
 //return if both values are false.
-//return if not eligible for loan refuse application 
+//return if not eligible for loan refuse application
 
 
 // let highIncome = false;
@@ -201,7 +201,7 @@
 // console.log(isLandscape(800, 900));
 
 // function isLandscape(width, height) {
-//   return (width > height);  
+//   return (width > height);
 // }
 
 //exercise-FizzBuzz
@@ -210,23 +210,23 @@
 // function fizzBuzz(input) {
 //     if(typeof input !== 'number')
 //     return NaN;
-    
+
 //     if((input % 3 === 0) && (input % 5 === 0))
 //     return('fizzbuzz');
-    
-//     if(input % 3 === 0) 
+
+//     if(input % 3 === 0)
 //     return('fizz');
 
 //     if(input % 5 === 0)
 //     return('buzz');
-    
+
 //     return(input)
 // }
 
 
 //exercise-evenOdd Numbers
 // showNumbers(10)
-    
+
 // function showNumbers(limit) {
 //     // for (let i = 0; i <= limit; i++) {
 //     //     if(i % 2 === 0) console.log(i, ' Even');
@@ -235,11 +235,11 @@
 
 //     const message = i % 2 ===0 ? 'EVEN': 'ODD'
 //     console.log(i, message)
-//     }  
+//     }
 // }
 
 
-//exercise-arrayTruthyCheckValues 
+//exercise-arrayTruthyCheckValues
 // const array = [0, null, undefined, '', 2, 3];
 
 // console.log(countTruthy(array));
@@ -250,24 +250,36 @@
 //     if(value)
 //     count++;
 //     return count;
-// } 
+// }
 
 
 // exercise- stringProperties
-const employee = {
-    empName: 'Jones',
-    empSalary: 50000,
-    empCompany: 'Starbucks' ,
-    empContact: 9109000011 
-};
+// const employee = {
+//     empName: 'Jones',
+//     empSalary: 50000,
+//     empCompany: 'Starbucks' ,
+//     empContact: 9109000011
+// };
 
-showEmployeeDetails(employee);
+// showEmployeeDetails(employee);
 
-function showEmployeeDetails(obj) {
-    for (let key in obj) {
-     if(typeof obj[key] === 'string')
-     console.log(key, obj[key])
-    }
+// function showEmployeeDetails(obj) {
+//     for (let key in obj) {
+//      if(typeof obj[key] === 'string')
+//      console.log(key, obj[key])
+//     }
+// }
+
+
+// exercise-sumLimits
+console.log(sum(10));
+
+function sum(limit) {
+ let sum = 0;
+
+      for (let i = 1; i <= limit; i++) 
+       if (i % 3 === 0 || i % 5 === 0)
+       sum += i;
+
+    return sum;
 }
-
-
