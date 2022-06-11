@@ -240,16 +240,34 @@
 
 
 //exercise-arrayTruthyCheckValues 
+// const array = [0, null, undefined, '', 2, 3];
 
-const array = [0, null, undefined, '', 2, 3];
+// console.log(countTruthy(array));
 
-console.log(countTruthy(array));
+// function countTruthy(array) {
+//     let count = 0;
+//     for(let value of array)
+//     if(value)
+//     count++;
+//     return count;
+// } 
 
-function countTruthy(array) {
-    let count = 0;
-    for(let value of array)
-    if(value)
-    count++;
-    return count;
-} 
+
+// exercise- stringProperties
+const employee = {
+    empName: 'Jones',
+    empSalary: 50000,
+    empCompany: 'Starbucks' ,
+    empContact: 9109000011 
+};
+
+showEmployeeDetails(employee);
+
+function showEmployeeDetails(obj) {
+    for (let key in obj) {
+     if(typeof obj[key] === 'string')
+     console.log(key, obj[key])
+    }
+}
+
 
