@@ -303,4 +303,11 @@ function calculateGrade(marks) {
      return 'A';
 }
 
+function calculateAverage(array) {
+    let sum = 0;
+    for (let value of array)   
+       sum += value;
+    return sum / array.length;
+}
+
 
