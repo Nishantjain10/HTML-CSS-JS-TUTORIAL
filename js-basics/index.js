@@ -306,4 +306,6 @@
 //     return sum / array.length;
 // }
 
+exercise-showStars
+
 
