@@ -316,6 +316,5 @@ function showStars(rows) {
         pattern += '*'
         console.log(pattern);
     }
-    
 }
 
