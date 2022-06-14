@@ -307,5 +307,15 @@
 // }
 
 // exercise-showStars
+showStars(5);
 
+
+function showStars(rows) {
+ let showStars = 0
+    for(let i = 1; i <= rows; i++) {
+        i += '*'
+        console.log(rows)
+    }
+    
+}
 
