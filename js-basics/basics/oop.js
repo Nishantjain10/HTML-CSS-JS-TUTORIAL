@@ -8,3 +8,10 @@
 //     }
 // };
 // console.log(employee.getWage());
+
+// Exercise show-primes
+showPrimes(20);
+
+function showPrimes(limit) {
+     
+}
