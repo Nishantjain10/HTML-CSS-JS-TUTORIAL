@@ -331,12 +331,6 @@ function showPrimes(limit) {
            } 
         }
 
-
         if (isPrime) console.log(number);
-
-
-
-        // if (i % 1 === 0 || i % i === 0)
-        // console.log(i);
     }
 }
