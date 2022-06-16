@@ -337,9 +337,11 @@
 
 //OBJECTS!!
 
-let radius = 1;
-let x = 1;
-let y = 1;
+// let radius = 1;
+// let x = 1;
+// let y = 1;
+
+//Object-oriented Programming (OOP)
 
 const circle = {
     radius: 1,
@@ -347,5 +349,13 @@ const circle = {
         x: 1,
         y: 1,
     },
-    isVisible: true
+    isVisible: true,
+    draw: function() {
+        console.log('draw')
+    }
 }
+
+circle.draw() //method
+
+// function draw() {}
+// function move() {}
