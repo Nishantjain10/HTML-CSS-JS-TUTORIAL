@@ -1,15 +1,15 @@
-//Object-oriented Programming (OOP)
+// //Object-oriented Programming (OOP)
 
-const circle = {
-    radius: 1,
-    location: {
-        x: 1,
-        y: 1,
-    },
-    isVisible: true,
-    draw: function() {
-        console.log('draw')
-    }
-}
+// const circle = {
+//     radius: 1,
+//     location: {
+//         x: 1,
+//         y: 1,
+//     },
+//     isVisible: true,
+//     draw: function() {
+//         console.log('draw')
+//     }
+// }
 
-circle.draw() //method
+// circle.draw() //method
