@@ -373,3 +373,9 @@ function createCircle(radius) {
         }
     };
 }
+
+const circle1 = createCircle(1);
+console.log(circle1);
+
+const circle2 = createCircle();
+console.log(circle2);
