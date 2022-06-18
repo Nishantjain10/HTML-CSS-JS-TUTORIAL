@@ -396,4 +396,5 @@ function Circle(radius) {
 const circle = new Circle(1); //use 'new' in constructor function
                               //we use 'this' in constructor function
                               //Pascal Notation is used in constructor function!
+                              //familiar to developers in c#,java
                               
