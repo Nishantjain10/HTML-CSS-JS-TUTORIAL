@@ -393,4 +393,4 @@ function Circle(radius) {
     }
 }
 
-    const
+const circle = new Circle(1);
