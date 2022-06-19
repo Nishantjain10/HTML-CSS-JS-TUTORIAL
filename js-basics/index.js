@@ -405,6 +405,7 @@
 // };
 
 // //cannot reassign constant circle = {}
+// //can define propertied of objects dynamically
 
 // circle.color = 'yellow'
 // circle.draw = function() {}
