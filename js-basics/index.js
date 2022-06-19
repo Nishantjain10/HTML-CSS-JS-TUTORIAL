@@ -398,3 +398,9 @@
 //                               //Pascal Notation is used in constructor function!
 //                               //familiar to developers in c#,java
                               
+
+//Dynamic Nature Of Objects
+const circle = {
+    radius: 1
+};
+
