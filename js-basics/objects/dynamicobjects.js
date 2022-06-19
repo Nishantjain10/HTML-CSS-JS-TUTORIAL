@@ -1,13 +1,13 @@
-const circle = {
-    radius: 1
-};
+// const circle = {
+//     radius: 1
+// };
 
-//cannot reassign constant circle = {}
+// //cannot reassign constant circle = {}
 
-circle.color = 'yellow'
-circle.draw = function() {}
+// circle.color = 'yellow'
+// circle.draw = function() {}
 
-delete circle.color;
-delete circle.draw;
+// delete circle.color;
+// delete circle.draw;
 
-console.log(circle);
+// console.log(circle);
