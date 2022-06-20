@@ -447,4 +447,11 @@ function createCircle(radius) {
 //circle.constructor 
 //--{Built in javascript constructor}
 
+let x = {};
+
+//let x = new Object();
+
+new String(); //'', "", ``
+new Boolean(); //true,false
+new Number(); //1,2,3
 
