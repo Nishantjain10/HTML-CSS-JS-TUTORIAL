@@ -414,3 +414,7 @@
 // delete circle.draw;
 
 // console.log(circle);
+
+
+
+//Constructor Property
