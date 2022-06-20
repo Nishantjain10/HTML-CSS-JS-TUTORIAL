@@ -430,9 +430,21 @@ function createCircle(radius) {
          };
  }
 
+ const circle = createCircle(1);
+
+ //constructor function
  function Circle(radius) {
     this.radius = radius;
     this.draw = function() {
         console.log('draw');
     }
 }
+
+    const another = new Circle(1);
+
+
+
+//circle.constructor 
+//--{Built in javascript constructor}
+
+
