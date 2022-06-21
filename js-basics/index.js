@@ -481,5 +481,8 @@
 //  const circle = new Circle1(1);
 
 Circle.call({}, 1)   //--> new Circle(1);
+                     // {} --> specifies target of this
+
+Circle.apply({}, [1, 2, 3])  //apply is used for array
 
  const another = new Circle(1);
