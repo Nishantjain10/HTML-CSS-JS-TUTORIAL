@@ -506,11 +506,11 @@
 //Primitives are copied by their values
 //Objects are copied by their reference
 
-let obj = { value: 10 }; 
+// let obj = { value: 10 }; 
 
- function increase(obj) {
-        obj.value++;
-        }
+//  function increase(obj) {
+//         obj.value++;
+//         }
 
-    increase (obj);
-    console.log(obj);
+//     increase (obj);
+//     console.log(obj);
