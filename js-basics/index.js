@@ -490,7 +490,7 @@
 
 // Value vs Reference Types 
 
-//Value                     //Reference Types
+//Value(Primitives)         //Reference Types(Objects)
 //-->Number                 //-->Number
 //   Boolean                // Function
 //   String                 // Array
