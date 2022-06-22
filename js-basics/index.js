@@ -490,3 +490,10 @@
 
 // Value vs Reference Types 
 
+//Value                     //Reference Types
+//-->Number                 //-->Number
+//   Boolean                // Function
+//   String                 // Array
+//   Symbol
+//   Undefined
+//   Null
