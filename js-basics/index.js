@@ -486,3 +486,7 @@
 // Circle.apply({}, [1, 2, 3])  //apply is used for array
 
 //  const another = new Circle(1);
+
+
+// Value vs Reference Types 
+
