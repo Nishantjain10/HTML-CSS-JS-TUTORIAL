@@ -514,3 +514,6 @@
 
 //     increase (obj);
 //     console.log(obj);
+
+
+//Enumeration Properties of an Object!
