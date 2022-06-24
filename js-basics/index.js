@@ -553,3 +553,5 @@ const another = {};
 
 for (let key in circle)
     another[key] = circle[key];
+
+console.log(another);
