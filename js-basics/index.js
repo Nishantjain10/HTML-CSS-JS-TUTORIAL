@@ -553,6 +553,6 @@ const circle = {
 // for (let key in circle)
 //     another[key] = circle[key];
 
-Object.assign({}, circle)
+const another = Object.assign({}, circle)
 
 console.log(another);
