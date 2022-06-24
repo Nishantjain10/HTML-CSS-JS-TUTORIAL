@@ -548,3 +548,8 @@ const circle = {
          console.log('draw')
      }
  };
+
+const another = {};
+
+for (let key in circle)
+    another[key] = circle[key];
