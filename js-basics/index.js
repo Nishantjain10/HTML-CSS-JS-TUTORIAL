@@ -538,3 +538,13 @@
 
 // // function Object() {}
 // // Object.keys()
+
+
+
+//Cloning Objects!
+const circle = {
+     radius: 1,
+     draw() {
+         console.log('draw')
+     }
+ };
