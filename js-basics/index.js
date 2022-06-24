@@ -549,9 +549,10 @@ const circle = {
      }
  };
 
-const another = {};
+// const another = {};
+// for (let key in circle)
+//     another[key] = circle[key];
 
-for (let key in circle)
-    another[key] = circle[key];
+Object.assign({}, circle)
 
 console.log(another);
