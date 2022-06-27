@@ -579,3 +579,6 @@
 
 //math.max(1,2,3,4,5)
 //output - 5
+
+//math.min(1,2,3,4,5)
+//output - 1
