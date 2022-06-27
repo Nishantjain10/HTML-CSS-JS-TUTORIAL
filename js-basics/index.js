@@ -570,7 +570,7 @@
 //Math Object 
 //Math is a built-in object that has properties and methods for mathematical constants and functions. It's not a function object.
 
-function getRandomArbitrary(min, max) {
-    return Math.random() * (max - min) + min;
-  }
+// function getRandomArbitrary(min, max) {
+//     return Math.random() * (max - min) + min;
+//   }
   
