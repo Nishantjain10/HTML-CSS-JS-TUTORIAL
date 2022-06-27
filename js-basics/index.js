@@ -558,3 +558,10 @@
 // const another = { ...circle };
 
 // console.log(another);
+
+
+//Garbage Collection
+//To find the variables or constants that are no longer used 
+//and deallocate the memory that was allocated to them earlier
+// let circle = {};
+// console.log(circle);
