@@ -574,3 +574,8 @@
 //     return Math.random() * (max - min) + min;
 //   }
   
+//math.round(1.9)
+//output - 2
+
+//math.max(1,2,3,4,5)
+//output - 5
