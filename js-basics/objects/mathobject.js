@@ -17,5 +17,10 @@
 
 
 // String Object
+
+//String Primitive
 const message = 'hi';
 message.
+
+//String Object
+const another = new String('hi')
