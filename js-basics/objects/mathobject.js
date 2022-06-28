@@ -19,8 +19,9 @@
 // String Object
 
 //String Primitive
-const message = 'hi';
-message.
+const message = 'This is my first message';
+//message.length
+
 
 //String Object
 const another = new String('hi')
