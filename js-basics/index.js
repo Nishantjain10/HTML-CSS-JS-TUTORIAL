@@ -637,3 +637,47 @@
 // const date2 = new Date(2018, 4, 11, 9, 0);
 
 // now.setFullYear(2017);
+
+
+//Address Object
+
+// let address = {
+//     street: '143',
+//     city: 'Indore',
+//     zipCode: 452001
+// }
+
+// function showAddress(address) {
+//     for (let key in address)
+//     console.log(key, address[key])
+// }
+
+// showAddress(address);
+
+
+//Factory & Constructor Function
+
+// //  let address = createAddress('a', 'b', 'c');
+// //     console.log(address);
+
+// factory function
+
+//  function CreateAddress(street, city, zipCode) {
+//      return {
+//          street: street, //street
+//          city,
+//          zipCode
+//      };
+//  }
+
+// Constructor Function
+// let address = new Address('a', 'b', 'c');
+// console.log(address);
+
+
+
+// function Address(street, city, zipCode) {
+//     this.street = street;
+//     this.city = city;
+//     this.zipCode = zipCode;
+// }
