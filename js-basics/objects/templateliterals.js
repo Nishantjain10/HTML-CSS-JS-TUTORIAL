@@ -1,14 +1,14 @@
-const message = ' This is my\n first message';
-const employeeName = 'John';
+// const message = ' This is my\n first message';
+// const employeeName = 'John';
 
-console.log(message);
+// console.log(message);
 
-const another = 
-`Hi ${employeeName} ${2 + 3},
+// const another = 
+// `Hi ${employeeName} ${2 + 3},
 
-Thank you for joining in my mailing list.
+// Thank you for joining in my mailing list.
 
-Regard,
-Mosh`;
+// Regard,
+// Mosh`;
 
-console.log(another);
+// console.log(another);
