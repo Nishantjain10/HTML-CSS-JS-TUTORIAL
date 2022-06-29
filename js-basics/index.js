@@ -611,7 +611,6 @@
 
 
 
-
 //Template Literals ES6 ``
 
 // const message = ' This is my\n first message';
@@ -628,3 +627,10 @@
 // Mosh`;
 
 // console.log(another);
+
+
+
+//Date Object
+
+const now = new Date();
+const date1 = new Date('May 11 2018 9:00');
