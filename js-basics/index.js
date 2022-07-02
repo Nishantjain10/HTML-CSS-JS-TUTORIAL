@@ -771,6 +771,6 @@ numbers.unshift(1,2);
 
 
 //Middle
-numbers.splice(2, )
+numbers.splice(2, 0, 'a', 'b');
 
 console.log(numbers);
