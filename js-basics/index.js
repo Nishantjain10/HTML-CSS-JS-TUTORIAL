@@ -774,3 +774,7 @@
 // numbers.splice(2, 0, 'a', 'b');
 
 // console.log(numbers);
+
+
+
+//Find Elements In an Array
