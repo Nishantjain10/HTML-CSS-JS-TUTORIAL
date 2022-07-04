@@ -795,4 +795,10 @@ const courses = [
     { id: 2, courseName: 'b'}
 ]
 
-console.log(courses.includes({id: 1, courseName: 'a' }));
+// console.log(courses.includes({id: 1, courseName: 'a' }));
+
+const course = courses.find(function(course) {
+    return course.courseName === 'a';
+})  
+
+console.log(course);  
