@@ -797,8 +797,13 @@ const courses = [
 
 // console.log(courses.includes({id: 1, courseName: 'a' }));
 
-const course = courses.find(function(course) {
-    return course.courseName === 'a';
+// const course = courses.find(function(course) {
+//     // return course.courseName === 'a';
+//     return course.courseName === 'xyz';
+// })  
+const course = courses.findIndex(function(course) {
+    // return course.courseName === 'a';
+    return course.courseName === 'xyz';
 })  
 
 console.log(course);  
