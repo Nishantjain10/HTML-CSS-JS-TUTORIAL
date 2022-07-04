@@ -802,8 +802,8 @@ const courses = [
 //     return course.courseName === 'xyz';
 // })  
 const course = courses.findIndex(function(course) {
-    // return course.courseName === 'a';
-    return course.courseName === 'xyz';
+    return course.courseName === 'a';
+    // return course.courseName === 'xyz';
 })  
 
 console.log(course);  
