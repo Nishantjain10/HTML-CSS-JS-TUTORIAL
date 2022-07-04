@@ -795,4 +795,4 @@ const courses = [
     { id: 2, courseName: 'b'}
 ]
 
-c
+console.log(courses.includes({id: 1, courseName: 'a' }));
