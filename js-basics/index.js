@@ -816,9 +816,8 @@ const courses = [
     { id: 2, courseName: 'b'}
 ]
 
-const course = courses.find(function(course) {
-    return course.courseName === 'a';
-    // return course.courseName === 'xyz';
-})  
-// console.log(course);
+const course = courses.find(course => course.courseName === 'a');
+    // return course.courseName === 'xyz';  
+
+console.log(course);
 
