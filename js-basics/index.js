@@ -820,5 +820,5 @@ const course = courses.find(function(course) {
     return course.courseName === 'a';
     // return course.courseName === 'xyz';
 })  
-console.log(course);
+// console.log(course);
 
