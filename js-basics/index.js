@@ -817,7 +817,7 @@ const courses = [
 ]
 
 const course = courses.find(course => course.courseName === 'a');
-    // return course.courseName === 'xyz';  
+
 
 console.log(course);
 
