@@ -811,13 +811,13 @@
 
 
 //Arrow Function 
-const courses = [
-    { id: 1, courseName: 'a'},
-    { id: 2, courseName: 'b'}
-]
+// const courses = [
+//     { id: 1, courseName: 'a'},
+//     { id: 2, courseName: 'b'}
+// ]
 
-const course = courses.find(course => course.courseName === 'a');
+// const course = courses.find(course => course.courseName === 'a');
 
 
-console.log(course);
+// console.log(course);
 
