@@ -825,18 +825,18 @@
 
 //Removing Elements in an Array 
 
-const numbers = [1, 2, 3, 4];
+// const numbers = [1, 2, 3, 4];
 
 
-//End
-// const last = numbers.pop();
-//console.log(last);
+// //End
+// // const last = numbers.pop();
+// //console.log(last);
 
-//Beginning
-// const first = numbers.shift();
-// console.log(first);
+// //Beginning
+// // const first = numbers.shift();
+// // console.log(first);
 
-//Middle
-numbers.splice(2, 2);
-console.log(numbers);
+// //Middle
+// numbers.splice(2, 2);
+// console.log(numbers);
 
