@@ -1,4 +1,4 @@
-const numbers = [1, 2, 3, 4];
+// const numbers = [1, 2, 3, 4];
 
 
 //End
@@ -10,5 +10,5 @@ const numbers = [1, 2, 3, 4];
 // console.log(first);
 
 //Middle
-numbers.splice(2, 2);
-console.log(numbers);
+// numbers.splice(2, 2);
+// console.log(numbers);
