@@ -821,3 +821,11 @@
 
 // console.log(course);
 
+
+
+//Removing Elements in an Array 
+
+const numbers = [1, 2, 3, 4];
+
+
+
