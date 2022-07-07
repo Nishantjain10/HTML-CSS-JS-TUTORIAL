@@ -850,7 +850,7 @@ let another = numbers;
     // numbers = [];
     
  //Solution 2
-    // numbers.length = 0;
+    // numbers.length = 0;  //better solution
 
  //Solution 3
     // numbers.splice(0, numbers.length);
