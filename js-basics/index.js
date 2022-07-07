@@ -853,9 +853,12 @@ let another = numbers;
     // numbers.length = 0;
 
  //Solution 3
-    numbers.splice(0, numbers.length);
+    // numbers.splice(0, numbers.length);
 
  //Solution 4
+while (numbers.length > 0)
+    numbers.pop();
+
     console.log(numbers);
     console.log(another);
     
