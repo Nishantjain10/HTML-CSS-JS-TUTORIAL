@@ -840,3 +840,9 @@
 // numbers.splice(2, 2);
 // console.log(numbers);
 
+
+
+//Emptying an array
+ const numbers = [1, 2, 3, 4];
+
+
