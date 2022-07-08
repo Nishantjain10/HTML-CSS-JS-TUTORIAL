@@ -861,4 +861,10 @@
 
 //     console.log(numbers);
 //     console.log(another);
+
+
+
+//Combining And Slicing Array
+const first = [1, 2, 3];
+const second = [4, 5, 6];
     
