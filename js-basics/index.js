@@ -886,5 +886,5 @@ const second = [4, 5, 6];
 
 const combined = [...first, 'a', ...second];
 
-const slice = combined.slice();
-
+// const copy = combined.slice();
+const copy = [...combined];
