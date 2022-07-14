@@ -910,4 +910,5 @@ const joined = numbers.join(',');
 console.log(joined);
 
 const message = 'This is my first message';
-message.split(' ')
+const parts= message.split(' ');
+console.log(parts);
