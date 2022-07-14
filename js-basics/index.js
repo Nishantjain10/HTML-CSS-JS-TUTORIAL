@@ -900,3 +900,8 @@
 //     console.log(number);
 
 // numbers.forEach((number, index) => console.log(index, number));
+
+
+
+//Joining an array
+const numbers = [1, 2, 3];
