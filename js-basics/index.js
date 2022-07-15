@@ -928,12 +928,15 @@
 
 const courses = [
     { id:1, courseName:'Node.js'},
-    { id:2, courseName:'Javascript'},
+    { id:2, courseName:'javascript'},
 ];
 
 courses.sort(function(a, b) {
-    if (a.courseName < b.courseName) return -1;
-    if (a.courseName > b.courseName) return 1;
+    const nameA = a.courseName.toUpperCase();
+    const nameB = a.courseName.toLowerCase();
+
+    if (nameA < nameB) return -1;
+    if (nameA > nameB) return 1;
     return 0;
 });
 
