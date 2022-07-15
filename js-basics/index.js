@@ -916,3 +916,6 @@
 // console.log(combined);
 
 
+
+//Sorting an array 
+const numbers = [1, 2, 3];
