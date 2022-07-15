@@ -927,13 +927,13 @@
 
 
 const courses = [
-    { id:1, name:'Node.js'},
-    { id:2, name:'Javascript'},
+    { id:1, courseName:'Node.js'},
+    { id:2, courseName:'Javascript'},
 ];
 
 courses.sort(function(a, b) {
-    if (a.name < b.name) return -1;
-    if (a.name > b.name) return 1;
+    if (a.courseName < b.courseName) return -1;
+    if (a.courseName > b.courseName) return 1;
     return 0;
 });
 
