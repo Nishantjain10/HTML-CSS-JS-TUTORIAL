@@ -973,4 +973,6 @@ const filtered = numbers.filter(n => n >= 0);
 
 const items = filtered.map(n => '<li>' + n + '</li>')
 
-console.log(items);
+const html ='<ul>' + items.join('') + '</ul>';
+
+console.log(html);
