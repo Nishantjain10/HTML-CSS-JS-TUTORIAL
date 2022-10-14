@@ -984,11 +984,11 @@
 
 
 //Reducing an Array
-// const numbers = [1, -1, 2, 3];
+const numbers = [1, -1, 2, 3];
 
-// // a = 0, c = 1 =>  a = 1
-// const sum = numbers.reduce((accumulator, currentValue) => {
-//     return accumulator + currentValue;
-// }, 0);
+// a = 0, c = 1 =>  a = 1
+const sum = numbers.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}, 0);
 
-// console.log(sum);
+console.log(sum);
