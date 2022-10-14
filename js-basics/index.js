@@ -946,7 +946,7 @@
 // Testing the elements of an Array
 const numbers = [1, -1, 2, 3];
 
-const allPositive = numbers.some(function(value) {
+const atLeastOnePositive = numbers.some(function(value) {
     return value >= 0;
 });
 
@@ -956,4 +956,4 @@ const allPositive = numbers.some(function(value) {
 // });
 
 
-console.log(allPositive);
+console.log(atLeastOnePositive);
