@@ -944,13 +944,13 @@
 
 
 // Testing the elements of an Array
-const numbers = [1, -1, 2, 3];
+// const numbers = [1, -1, 2, 3];
 
-//every()
-//some()
+// //every()
+// //some()
 
-const atLeastOnePositive = numbers.some(function(value) {
-    return value >= 0;
-});
+// const atLeastOnePositive = numbers.some(function(value) {
+//     return value >= 0;
+// });
 
-console.log(atLeastOnePositive);
+// console.log(atLeastOnePositive);
