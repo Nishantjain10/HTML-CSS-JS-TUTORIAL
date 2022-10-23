@@ -1203,4 +1203,21 @@
 
 
 
+//Getters and Setters
+const person = {
+    firstName: 'Nishant',
+    lastName: 'Jain',
+    fullName() {
+        return `${person.firstName} ${person.lastName}`;
+    }
+};
+
+
+console.log(person.fullName());
+
+
+
+
+
+
 
