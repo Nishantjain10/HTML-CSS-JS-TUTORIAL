@@ -1374,3 +1374,18 @@
 
 //    return items.reduce((a, b) => a + b);
 // }
+
+
+
+
+//Exercise  Area of Circle
+
+
+const circle = {
+    radius: 1,
+    get area() {
+        return Math.PI * this.radius * this.radius;   
+    }
+};
+
+console.log(circle.area);
