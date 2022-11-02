@@ -1294,13 +1294,40 @@
 //var - was used to define constants  => function-scoped
 //ES6(ES2015) - let, const => block-scoped
 
-var color = 'red';
-let age = 30; 
+// var color = 'red';
+// let age = 30; 
 
-function sayHi() {
-    console.log('Hi')
-}
+// function sayHi() {
+//     console.log('Hi')
+// }
 
-//avoid adding stuff to window object
-//avoid using var 
+// //avoid adding stuff to window object
+// //avoid using var 
 
+
+
+
+
+// The this Keyword In javascript
+// method --> obj
+//function -> global (window, global)
+
+const video = {
+    title: 'a',
+    tags: ['a', 'b', 'c'],
+    showTags() {
+        this.tags.forEach(function(tag) {
+            console.log(this, tag);
+        }, this);
+    }
+};
+
+video.showTags();
+
+
+// function Video(title) {
+//     this.title = title;
+//     console.log(this);
+// } 
+  
+// const v = new Video('b'); //{}
