@@ -1,74 +1,33 @@
-// document.getElementById("count").innerText = 5
-
-
-// userPoints = 50;
-
-// bonusUserPoints = userPoints + 50;
-
-// bonusUserPoints = userPoints - 25;
-
-// bonusUserPoints = userPoints + 70;
-
-// console.log(bonusUserPoints);
-
-// function increment() {
-//     console.log('The button is CLICKED!')
-// }
-
-
-// function printNumber() {
-//     console.log('42')
-// }
-
-
-// lapOne = 32;
-// lapTwo = 34;
-// lapThree = 36;
-
-// function lapCount() {
-//     console.log(lapOne + lapTwo + lapThree);   
-// }
-
-// lapCount()
-
-// let lapsCompleted = 0;
-
-// function lapIncrement() {
-//     lapsCompleted = lapsCompleted + 1
-// }
-
-// lapIncrement()
-// lapIncrement()
-// lapIncrement()
-
-// console.log(lapsCompleted)
-
+// 1. Grab the save-el paragrah and store it in a variable called saveEl
 
 let countEl = document.getElementById("count-el")
-console.log(countEl)
-
-let count = 0;
+let count = 0
 
 function increment() {
-    count = count + 1;
-    countEl.innerText = count;
-    console.log(count)
+    count += 1
+    countEl.textContent = count
 }
-
-
 
 function decrement() {
-    count = count - 1;
-    countEl.innerText = count;
-    console.log(count)
+    count -= 1
+    countEl.textContent = count
 }
 
-
+let saveEl = document.getElementById("save-el")
 
 function save() {
-    console.log(count)
+    
+    savedLogs = count + " - "
+
+    saveEl.textContent += savedLogs
+
+    countEl.textContent = 0;
+    
+    count = 0
+
+    
 }
-console.log(myGreeting)
+
 
 
 

@@ -7,32 +7,46 @@ body {
 }
 
 h1 {
+    font-family: monospace;
+    font-size: 2rem;
     margin-top: 10px;
-    margin-bottom: 10px;
+}
+
+.items-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+    font-size: 1rem;
+    display: inline;
+    padding: 4px 20px;
 }
 
 button {
+    font-size: 1.4rem;
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
     font-weight: bold;
     color: white;
-    width: 200px;
-    margin-bottom: 5px;
+    width: 60px;
     border-radius: 5px;
 }
 
 #increment-btn {
-    background: darkred;
+    background: dodgerblue;
 }
 
-#save-btn {
+#save-btn-style  {
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
     background: darkgreen;
+    margin-top: 30px;
+    padding: 20px;
+    width: 100px; 
+    font-size: medium;
 }
 
