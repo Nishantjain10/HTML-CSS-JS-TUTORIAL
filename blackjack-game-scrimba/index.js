@@ -27,7 +27,7 @@ function renderGame() {
         hasBlackJack = true
     } else {
         message = "You're out of the game!"
-        isAlive = false
+        isAlive = true
     }
     messageEl.textContent = message
 }
@@ -40,3 +40,4 @@ function newCard() {
     console.log(cards)
     renderGame()
 }
+
